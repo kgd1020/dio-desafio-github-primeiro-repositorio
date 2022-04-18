@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="estudante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-11 04:17:57 "/>
+        <attribute name="created" value="ZXN0dWRhbnRlO0xBUFRPUC1LQ05QNEFLUTsyMDIyLTA0LTExOyIwMzo1OTo1MiAiOzMyNDY="/>
+        <attribute name="edited" value="ZXN0dWRhbnRlO0xBUFRPUC1LQ05QNEFLUTsyMDIyLTA0LTExOyIwNDoxNzo1NyAiOzE7MzM1NA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Este programa calcula e exibe a m&#233;dia de vendas no prer&#237;odo Janeiro a Abril"/>
+            <declare name="jan, fev, mar, abr" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a venda de janeiro: &quot;" newline="False"/>
+            <input variable="jan"/>
+            <output expression="&quot;Digite a venda de fevereiro: &quot;" newline="False"/>
+            <input variable="fev"/>
+            <output expression="&quot;Digite a venda de mar&#231;o: &quot;" newline="False"/>
+            <input variable="mar"/>
+            <output expression="&quot;Digite a venda de abril: &quot;" newline="False"/>
+            <input variable="abr"/>
+            <output expression="&quot;Total vendas per&#237;odo janeiro/fevereiro: &quot; &amp; (jan + fev + mar + abr)" newline="True"/>
+            <output expression="&quot;M&#233;dia de vendas no per&#237;odo janeiro/fevereiro: &quot; &amp; ((jan + fev + mar + abr)/4)" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

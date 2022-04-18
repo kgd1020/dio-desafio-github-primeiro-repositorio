@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="estudante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-11 03:59:50 "/>
+        <attribute name="created" value="ZXN0dWRhbnRlO0xBUFRPUC1LQ05QNEFLUTsyMDIyLTA0LTExOyIwMjoxMzowNyAiOzMyMzU="/>
+        <attribute name="edited" value="ZXN0dWRhbnRlO0xBUFRPUC1LQ05QNEFLUTsyMDIyLTA0LTExOyIwMzo1OTo1MCAiOzI7MzM1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, cont" type="Integer" array="False" size=""/>
+            <output expression="&quot;Taboada de 9&quot;" newline="True"/>
+            <output expression="&quot;At&#233; quanto voc&#234; quer saber a taboada de 9 ? &#13;&#10;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="num"/>
+            <assign variable="cont" expression="1"/>
+            <output expression="&quot;Ok, voc&#234; quer saber a taboada de 9 at&#233; &quot; &amp; num" newline="True"/>
+            <while expression="cont &lt;= num">
+                <output expression="cont &amp; &quot; x 9 = &quot; &amp; (cont * 9)" newline="True"/>
+                <assign variable="cont" expression="cont + 1"/>
+            </while>
+            <output expression="&quot;FIM DE PROGRAMA&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

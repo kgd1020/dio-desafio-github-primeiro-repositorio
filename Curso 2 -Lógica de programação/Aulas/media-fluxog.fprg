@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="estudante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-11 01:31:10 "/>
+        <attribute name="created" value="ZXN0dWRhbnRlO0xBUFRPUC1LQ05QNEFLUTsyMDIyLTA0LTExOyIxMTo0ODoxMiAiOzMyMzk="/>
+        <attribute name="edited" value="ZXN0dWRhbnRlO0xBUFRPUC1LQ05QNEFLUTsyMDIyLTA0LTExOyIwMTozMToxMCAiOzI7MzMzNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Declara&#231;&#227;o ou defini&#231;&#227;o das vari&#225;veis"/>
+            <declare name="nota1, nota2, nota3, nota4, media, total" type="Real" array="False" size=""/>
+            <comment text="Entrada ou a digita&#231;&#227;o das notas"/>
+            <output expression="&quot;Digite a 1&#170; nota: &quot;" newline="False"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite a 2&#170; nota: &quot;" newline="False"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite a 3&#170; nota: &quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite a 4&#170; nota: &quot;" newline="True"/>
+            <input variable="nota4"/>
+            <comment text="Processamento ou c&#225;lculo do total das notas"/>
+            <assign variable="total" expression="nota1 + nota2 + nota3 + nota4"/>
+            <comment text="Processamento ou c&#225;lculo da m&#233;dia das 4 notas"/>
+            <assign variable="media" expression="(nota1 + nota2 + nota3 + nota4) / 4"/>
+            <output expression="&quot;A 1&#170; nota foi: &quot;" newline="False"/>
+            <output expression="nota1" newline="True"/>
+            <output expression="&quot;A 2&#170; nota foi: &quot;" newline="False"/>
+            <output expression="nota2" newline="True"/>
+            <output expression="&quot;A 3&#170; nota foi: &quot;" newline="False"/>
+            <output expression="nota3" newline="True"/>
+            <output expression="&quot;A 4&#170; nota foi: &quot;" newline="False"/>
+            <output expression="nota4" newline="True"/>
+            <output expression="&quot;O total das notas &#233;: &quot;" newline="False"/>
+            <output expression="total" newline="True"/>
+            <output expression="&quot;A m&#233;dia aritm&#233;tica das notas &#233;: &quot;" newline="False"/>
+            <output expression="media" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

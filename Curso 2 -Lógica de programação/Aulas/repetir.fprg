@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="estudante"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-11 02:13:02 "/>
+        <attribute name="created" value="ZXN0dWRhbnRlO0xBUFRPUC1LQ05QNEFLUTsyMDIyLTA0LTExOyIwMTo1Mjo0MiAiOzMyMzY="/>
+        <attribute name="edited" value="ZXN0dWRhbnRlO0xBUFRPUC1LQ05QNEFLUTsyMDIyLTA0LTExOyIwMjoxMzowMiAiOzI7MzMzOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="total, cont" type="Integer" array="False" size=""/>
+            <output expression="&quot;At&#233; quanto voc&#234; quer contar? Digite um n&#186; inteiro: &quot;" newline="False"/>
+            <input variable="total"/>
+            <output expression="&quot;Voc&#234; quer contar at&#233; &quot;&amp; total" newline="True"/>
+            <assign variable="cont" expression="1"/>
+            <output expression="&quot;Ok, vamos l&#225;!&quot;" newline="True"/>
+            <output expression="&quot;Contando...&quot;" newline="True"/>
+            <while expression="cont &lt;= total">
+                <output expression="cont" newline="True"/>
+                <assign variable="cont" expression="cont + 1"/>
+            </while>
+            <output expression="&quot;Fim de programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
