@@ -1,0 +1,56 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Verdana;
+    max-width: 900 px;
+}
+a {
+    text-decoration: line-through;
+    color: #505050;
+}
+
+.fotoKennedy{
+    border-radius: 50%;
+    border: 2px solid #505050;
+}
+#title, .subtitle, .posttitle {
+    color: #505050;
+}
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.posttitle {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post {
+    background-color: #fff;
+    padding: 15px;
+    border: 3px solid #505050;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    width: 800px;
+    margin: auto;
+}
+.postcontent {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+.postimage {
+    margin-bottom: 15px;
+    width: 50%;
+}
+.listaContatos {
+    list-style-type:none;
+    padding-left: 15px;
+}
+.listaContatos li a {
+    text-decoration: none;
+    font-style: italic;
+    color: rgb(51, 51, 240);
+}
